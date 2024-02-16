@@ -301,3 +301,76 @@ header
       text-decoration: none;
       color: #FFFFFF;
    }
+
+/* Start Footer */
+footer
+   {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+      font-size: 24px;
+      font-weight: 400;
+      background-color: #070211;
+      margin-bottom: 0px;
+      height: 500px;
+   }
+.footer-info
+   {
+      width: 1320px;
+      margin: 0 auto;
+   }
+.footer-part1
+   {
+      padding-top: 50px;
+      display: flex;
+      color: #FFFFFF;
+      justify-content: space-between;
+   }
+.number
+   {
+      margin-bottom: 0px;
+   }
+.web
+   {
+      margin-top: 2px;
+   }
+hr
+   {
+      height: 1px;
+      background-color: #ffffff7c;
+      border: none;
+      border-radius: 15px;
+   }
+.footer-Soc
+   {
+      width: 1320px;
+      padding-top: 30px;
+      margin: 0 auto;
+   }
+.footer-part2
+   {
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+   }
+.unsubscribe-btn
+   {
+      border: none;
+      background: none;
+      font-size: 20px;
+      padding-top: 25px;
+   }
+.unsubscribe-btn :hover
+   {
+      padding: 5px 10px;
+      border-radius: 10px;
+      background-color: #ff000081;
+   }
+.unsubscribe-btn a
+   {
+      text-decoration: none;
+      color: #FFFFFF;
+   }
