@@ -10,12 +10,14 @@ header, main
       width: 1320px;  
       margin: 0 auto;
    }
+
+/* Start Header > Banner */
 header
    {
       
       background-image: url('/resources/Banner_Image.png');
       background-repeat: no-repeat; 
-      
+      margin-bottom: 120px;
    }
 .banner
    {
@@ -42,4 +44,260 @@ header
       font-weight: 900;
       margin-top: 0px;
       font-size: 72px;
+   }
+
+/* Start main >Categories-offer */
+.categories-offer
+   {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+      text-align: center;
+      margin-bottom: 120px;
+   }
+.offer
+   {
+      font-weight: 700;
+      font-size: 88px;
+      color: #FF0000;
+   }
+.categories-title
+   {
+      font-weight: 500;
+      font-size: 24px;
+      color: #FF0000;
+      margin-bottom: 0px;
+   }
+.categories
+   {
+      margin-top: 5px;
+      font-weight: 700;
+      font-size: 48px;
+   }
+
+/* Srart Main > party */
+.party
+   {
+      height: 600px;
+      background-image: url(../resources/Vectorrr.png);
+
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 120px;
+   }
+.party-dark
+   {
+      height: 600px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+   }
+.perty-info
+   {
+      width: 50%;
+   }
+.party-title
+   {
+      font-size: 80px;
+      font-weight: 900;
+      color: #FFFFFF;
+      margin-bottom: 0px;
+   }
+.party-des
+   {
+      margin-top: 10px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+      font-weight: 400;
+      font-size: 18px;
+      color: #ffffffb9;
+      margin-left: 0px;
+      margin-bottom: 48px;
+   }
+.join-btn
+   {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+      font-weight: 700;
+      font-size: 20px;
+      background: transparent;
+      border: none;
+      margin-left: 25px;
+   }
+.join-btn :hover
+   {
+      color: #e3c161;
+   }
+.join-btn a
+   {
+      color: #FFFFFF;
+      text-decoration: none;
+   }
+.party img
+   {
+      height: 80%;
+   }
+/*Start Address  */
+.address
+   {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+      height: 400px;
+      border-radius: 15px;
+      background: linear-gradient(to bottom, rgba(222, 148, 148, 0.6), rgba(235, 181, 181, 0.008));
+      margin-bottom: 120px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 120px;
+   }
+.address-info
+   {
+      font-weight: 600;
+      font-size: 32px;
+   }
+.address span
+   {
+      color: #FF0000;
+   }
+.join-now
+   {
+      border: none;
+      background-color: #FF0000;
+      padding: 10px;
+      border-radius: 5px;
+      color: #FFFFFF;
+   }
+/* Start Portfolio */
+.portfolio
+   {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+   }
+.gifts
+   {
+      color: #FF0000;
+      font-weight: 500;
+      font-size: 24px;
+      margin-bottom: 5px;
+   }
+.portfolio-title
+   {
+      color: #070211;
+      font-weight: 900;
+      font-size: 48px;
+      margin-bottom: 5px;
+      margin-top: 0px;
+   }
+.portfolio-des
+   {
+      margin-bottom: 15px;
+      color: #0702117f;
+      font-weight: 400;
+      font-size: 20px;
+   }
+.gifts-items
+   {
+      margin-bottom: 120px;
+   }
+.items
+   {
+      display: flex;
+   }
+.item
+   {
+      margin: 10px;
+
+   }
+.item :hover
+   {
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+   }
+
+/* Start Subscribe */
+.subscribe
+   {
+      text-align: center;
+      margin-bottom: 120px;
+      background-color: rgb(255, 242, 242);
+      border-radius: 15px;
+      height: 600px;
+      padding: 0px 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+.sub-title
+   {
+      font-size: 48px;
+      font-weight: 900;
+      color: #070211;
+      margin-top: 5px;
+      margin-bottom: 0px;
+
+   }
+.sub-des
+   {
+      margin-top: 5px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+      font-weight: 500;
+      color: #0702117f;
+      font-size: 20px;
+      margin-bottom: 48px;
+      
+   }
+.mail
+   {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:"slnt" 0;
+   }
+.mail input 
+   {
+      border: none;
+      padding: 15px 100px 15px 20px;
+      font-size: 18px;
+      font-family: 500;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+
+   }
+.mail button
+   {
+      font-size: 20px;
+      font-weight: 600;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      background: #FF0000;
+      padding: 15px 40px;
+      border: none;
+   }
+.mail button a
+   {
+      text-decoration: none;
+      color: #FFFFFF;
    }
